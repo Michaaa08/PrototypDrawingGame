@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         blueBtn.setOnClickListener(){
 
-            Toast.makeText(this,"Clicked",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Clicked!",Toast.LENGTH_SHORT).show()
             paintBrush.color = Color.BLUE
             currentColor(paintBrush.color)
 
